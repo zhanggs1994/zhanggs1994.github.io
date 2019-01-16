@@ -2,9 +2,10 @@
 layout: default
 ---
 <style>
-    canvas{display:block;left:0;position:absolute;top:0;z-index:1;pointer-events:none;}
+    canvas{display:block;left:0;position:absolute;top:0;z-index:-1}
     </style>  
 <script type="text/javascript" src="./js/jquery-2.0.0.min.js"></script>
+<body>
 <div class="page clearfix" index>
     <div class="left">
         <h1>Welcome to ZGS's Blog!</h1>
@@ -184,10 +185,10 @@ layout: default
         });
     });
     </script> -->
-    <canvas class="fireworks" style="position: fixed; left: 0px; top: 0px; z-index: 1; pointer-events: none; " ></canvas>
+  
 
-    <script type="text/javascript" src="./js/firework.js"></script>
-        <!-- <script type="text/javascript">
+        <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+        <script type="text/javascript">
         $(function(){
         var Fireworks = function(){
         var self = this;
@@ -499,5 +500,6 @@ layout: default
         
         });
         
-        </script> -->
+        </script>
         
+        </body>
