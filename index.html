@@ -199,7 +199,7 @@ layout: default
         window.requestAnimFrame=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(a){window.setTimeout(a,1E3/60)}}();
         
         self.init = function(){ 
-        self.canvas = document.createElement('canvas');             
+        self.canvas = document.getElementById('canvas');             
         self.canvas.width = self.cw = $(window).innerWidth();
         self.canvas.height = self.ch = $(window).innerHeight();         
         self.particles = [];    
