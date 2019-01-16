@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "代码校验工具 SublimeLinter 的安装与使用"
-date:   2015-03-26 15:14:54
+date:   2017-03-26 15:14:54
 categories: Sublime
 tags: Sublime jshint csslint
 ---
