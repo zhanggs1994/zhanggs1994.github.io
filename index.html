@@ -5,7 +5,6 @@ layout: default
     .canvas{display:block;left:0;position:absolute;top:0;z-index:-1;width: 100%;height: 100%;}
     </style>  
 <script type="text/javascript" src="./js/jquery-2.0.0.min.js"></script>
-<canvas class="canvas">
 
 <div class="page clearfix" index>
     <div class="left">
@@ -161,7 +160,6 @@ layout: default
         </div>
     </div>
 </div>
-</canvas>   
 
 <!-- <script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
 <!-- <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
@@ -200,7 +198,7 @@ layout: default
         window.requestAnimFrame=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(a){window.setTimeout(a,1E3/60)}}();
         
         self.init = function(){ 
-        self.canvas = document.getElementsByClassName('canvas');             
+        self.canvas = document.createElement('canvas');             
         self.canvas.width = self.cw = $(window).innerWidth();
         self.canvas.height = self.ch = $(window).innerHeight();         
         self.particles = [];    
