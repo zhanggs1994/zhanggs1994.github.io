@@ -7,7 +7,7 @@
 
 # Site settings
 title: "张三疯的个人博客"
-brief-intro: Front-end Dev Engineer
+brief-intro: 记录开发点滴
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zhanggs1994.github.io" # the base hostname & protocol for your site
 
