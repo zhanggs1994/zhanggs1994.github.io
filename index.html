@@ -6,10 +6,11 @@ layout: default
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #111;
+        background-color: white;
     }
     </style>    
 <script language="javascript" type="text/javascript" src="https://cdn.staticfile.org/jquery/1.7.2/jquery.min.js"></script>
+<canvas id=c>
 <div class="page clearfix" index>
     <div class="left">
         <h1>Welcome to ZGS's Blog!</h1>
@@ -189,7 +190,7 @@ layout: default
         });
     });
     </script> -->
-    <canvas id=c></canvas><script>
+   </canvas><script>
         var gl = c.getContext( 'webgl', { preserveDrawingBuffer: true } )
             ,	w = c.width = window.innerWidth
             ,	h = c.height = window.innerHeight
