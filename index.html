@@ -2,11 +2,10 @@
 layout: default
 ---
 <style>
-    #canvas{display:block;left:0;position:absolute;top:0;width: 100%;height: 100%;}
+    canvas{display:block;left:0;position:absolute;top:0;width: 100%;height: 100%;}
     </style>  
 <script type="text/javascript" src="./js/jquery-2.0.0.min.js"></script>
-<canvas id="canvas">
-<div class="page clearfix" index>
+<div class="page clearfix" index id="mainPage">
     <div class="left">
         <h1>Welcome to ZGS's Blog!</h1>
         <small>挖坑小能手在线挖坑(〃'▽'〃)</small>
@@ -198,7 +197,7 @@ layout: default
         window.requestAnimFrame=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(a){window.setTimeout(a,1E3/60)}}();
         
         self.init = function(){ 
-        self.canvas = document.getElementById('canvas');             
+        self.canvas = document.createElement('canvas');             
         self.canvas.width = self.cw = $(window).innerWidth();
         self.canvas.height = self.ch = $(window).innerHeight();         
         self.particles = [];    
@@ -223,6 +222,7 @@ layout: default
         self.clearAlpha = 25;
         
         // $(document.body).append(self.canvas);
+        $("#mainPage").append(self.canvas);
         self.ctx = self.canvas.getContext('2d');
         self.ctx.lineCap = 'round';
         self.ctx.lineJoin = 'round';
