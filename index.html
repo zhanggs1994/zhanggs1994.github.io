@@ -2,15 +2,10 @@
 layout: default
 ---
 <style>
-    #canvas{position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-    pointer-events: none;}
+    canvas{display:block;left:0;position:absolute;top:0;z-index:20;pointer-events:none;}
     </style>  
 <script type="text/javascript" src="./js/jquery-2.0.0.min.js"></script>
 <body>
-<canvas id="canvas">
 <div class="page clearfix" index>
     <div class="left">
         <h1>Welcome to ZGS's Blog!</h1>
@@ -165,7 +160,6 @@ layout: default
         </div>
     </div>
 </div>
-</canvas>
 <!-- <script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
 <!-- <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
 <!-- <script type="text/javascript">
@@ -203,7 +197,7 @@ layout: default
         window.requestAnimFrame=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(a){window.setTimeout(a,1E3/60)}}();
         
         self.init = function(){ 
-        self.canvas = document.getElementById('canvas');             
+        self.canvas = document.createElement('canvas');             
         self.canvas.width = self.cw = $(window).innerWidth();
         self.canvas.height = self.ch = $(window).innerHeight();         
         self.particles = [];    
