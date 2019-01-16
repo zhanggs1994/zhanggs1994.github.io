@@ -222,7 +222,7 @@ layout: default
         self.showTarget = false;
         self.clearAlpha = 25;
         
-        // $(document.body).append(self.canvas);
+        $(document.body).append(self.canvas);
         self.ctx = self.canvas.getContext('2d');
         self.ctx.lineCap = 'round';
         self.ctx.lineJoin = 'round';
