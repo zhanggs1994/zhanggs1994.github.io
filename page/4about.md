@@ -5,7 +5,6 @@ permalink: /about/
 icon: heart
 type: page
 ---
-{% include firework.html %}
 * content
 {:toc}
 
@@ -98,5 +97,6 @@ type: page
 
 ## Comments
 
-{% include comments.html %}
+{% include firework.html %}
+
 
