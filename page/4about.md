@@ -5,7 +5,7 @@ permalink: /about/
 icon: heart
 type: page
 ---
-
+{% include firework.html %}
 * content
 {:toc}
 
@@ -99,7 +99,4 @@ type: page
 ## Comments
 
 {% include comments.html %}
-<style>
-    canvas{display:block;left:0;position:absolute;top:0;z-index: 1;}
-    </style> 
-        <script type="text/javascript" src="./js/fireword.js"></script>
+
