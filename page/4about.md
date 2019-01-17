@@ -6,10 +6,7 @@ icon: heart
 type: page
 ---
 
-* content
-{:toc}
 
-## 关于我
 <html>
 <style>
         canvas{display:block;left:0;position:absolute;top:0;z-index: 1;margin-top: 50px;}
@@ -289,7 +286,11 @@ type: page
     });
  </script>
  </html>
+ 
+* content
+{:toc}
 
+## 关于我
 
 就职于阿里巴巴集团天猫事业部，前端开发工程师，花名川轼。
 
