@@ -286,39 +286,27 @@ type: page
     });
  </script>
  </html>
- 
+
 * content
 {:toc}
 
 ## 关于我
 
-就职于阿里巴巴集团天猫事业部，前端开发工程师，花名川轼。
+![](../img/zsf.png)
 
-主要兴趣集中在前端开发，大前端的概念深入我心。将更多的业务逻辑放在前端中，这很有趣。同时，将自己构想的内容实现出来，这种感觉很愉快。
 
-热爱美好的事物，热爱摇滚乐，组过乐队，卖过唱。
 
-很喜欢崔健的歌词：现实像块石头，精神像个蛋，石头虽然坚硬，可蛋里才是生命。
+------
 
-还有，学习是一个非常愉快的过程。共同加油！
-
-* 2016.6.30 入职阿里巴巴天猫事业部
-* 2016.6 毕业于西安交通大学 软件工程硕士
-* 2015.12 获得2014-2015学年二等奖学金
-* 2015.7-2015.8 联想服务，前端开发工程师（实习生）
-* 2013.6 毕业于西安交通大学 理学院
-* 2001 获得西航四校总成绩年级排名第八名
+![](../img/abouttext.png)
 
 ## 联系我
 
-* GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
-* email：gaohaoyang126@126.com
-* [Weibo](http://weibo.com/3115521wh)
-* [知乎](https://www.zhihu.com/people/gaohaoyang)
-* [Facebook](https://www.facebook.com/gaohaoyang.water)
-* [Twitter](https://twitter.com/gaohaoyang126)
-* [豆瓣](https://www.douban.com/people/42525035/)
-* [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
+* GitHub：[Gaohaoyang](https://github.com/zhanggs1994)
+* email：HelloRyan@live.com
+* [Weibo](https://www.weibo.com/u/3884290688)
+* [知乎](https://www.zhihu.com/people/zhang-gan-sheng-87-39/activities)
+* [网易云音乐](https://music.163.com/#/user/home?id=483039767)
 
 ## 关于本站
 
