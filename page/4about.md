@@ -302,7 +302,7 @@ type: page
 
 ## 联系我
 
-* GitHub：[Gaohaoyang](https://github.com/zhanggs1994)
+* GitHub：[zhanggs1994](https://github.com/zhanggs1994)
 * email：HelloRyan@live.com
 * [Weibo](https://www.weibo.com/u/3884290688)
 * [知乎](https://www.zhihu.com/people/zhang-gan-sheng-87-39/activities)
