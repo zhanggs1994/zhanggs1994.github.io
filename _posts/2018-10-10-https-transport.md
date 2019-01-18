@@ -1,10 +1,9 @@
 ---
 layout: post
-title: 一文看懂https如何保证数据传输的安全性的
+title:  "一文看懂https如何保证数据传输的安全性的"
+date:   2018-10-10 23:06:05
 categories: 数据安全
-date: 2018-10-10 09:54:05
-tags: 数据加密 https 数字证书
-author: Zgs
+tags: https 数组证书 安全传输
 ---
 
 * content
