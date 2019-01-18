@@ -24,6 +24,8 @@ tags: map
  
  
 
+
+
  **下面通过例子看看：**
 
  Map<String,String> map = new HashMap<String,String>();  
