@@ -310,8 +310,20 @@ type: page
 
 ## 关于本站
 
+这个博客主要用于记录一个菜鸟程序猿的Growth之路。
 
-## Comments
+| shij | 内容                             |
+| ---------- | ------------------------------------------------------------ |
+| 2019.1.10  | 个人博客迁移发布。                                           |
+| 2019.1.5   | 网站页面汉化，布局优化。                                     |
+| 2019.1.2   | 页面样式修改，个人信息录入。                                 |
+| 2019.1.1   | 尝试用jekyll + github 搭建一个博客，使用[ Gaohaoyang ](http://gaohaoyang.github.io/)的模板，准备有时间慢慢修改。 |
+
+## 大腿们
+
+[Gaohaoyang](http://gaohaoyang.github.io) \|[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/)
+
+## 留言
 
 {% include comments.html %}
 <!-- md摘要显示全文问题解决：在摘要位置留出多行空格即可 -->
