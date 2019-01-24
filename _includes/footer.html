@@ -18,15 +18,16 @@
             <a href=" https://dribbble.com/{{site.dribbble_username}}" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a> {% endif %}
         </p>
         <p>
-            本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span id="busuanzi_value_site_uv"></span>人次，本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+            test<span data-hk-page="current"> - </span> 本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span id="busuanzi_value_site_uv"></span>人次，本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+       
         </p>
         <p>
             <span id="htmer_time" style="color: red;"></span>
         </p>
-        <p>
-            本站包含英文字数：{{ page.content | number_of_words }}
-            本站包含中文字数：{{ content | strip_html | strip_newlines | split: "" | size }}
-        </p>
+        <!-- <p>
+            本页包含英文字数：{{ page.content | number_of_words }}
+            本页包含中文字数：{{ content | strip_html | strip_newlines | split: "" | size }}
+        </p> -->
         <p class="power">
             <span>
                 Site powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">Github Pages</a>.
@@ -38,6 +39,7 @@
     </div>
 </footer>
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="http://jerry-cdn.b0.upaiyun.com/hit-kounter/hit-kounter-0.1.1.js"></script>
 <!-- 计算运行时间 -->
 <span style="font-size:12px;"><script language=JavaScript> 
     function secondToDate(second) {
