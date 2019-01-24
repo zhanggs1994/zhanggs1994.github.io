@@ -327,6 +327,5 @@ type: page
 ## 评论
 
 <!-- {% include comments.html %} -->
-        {% include intensedebate-comments.html %}
-
+<script src="https://www.intensedebate.com/widgets/userComment/22365660" defer="defer" type="text/javascript"></script>
 <!-- md摘要显示全文问题解决：在摘要位置留出多行空格即可 -->
