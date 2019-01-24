@@ -23,6 +23,10 @@
         <p>
             <span id="htmer_time" style="color: red;"></span>
         </p>
+        <p>
+            本站包含英文字数：{{ page.content | number_of_words }}
+            本站包含中文字数：{{ content | strip_html | strip_newlines | split: "" | size }}
+        </p>
         <p class="power">
             <span>
                 Site powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">Github Pages</a>.
@@ -34,6 +38,7 @@
     </div>
 </footer>
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- 计算运行时间 -->
 <span style="font-size:12px;"><script language=JavaScript> 
     function secondToDate(second) {
         if (!second) {
