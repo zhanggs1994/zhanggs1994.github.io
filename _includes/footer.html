@@ -33,7 +33,8 @@
               <span class="site-pv" title="总访问量">
                 <span class="busuanzi-value" id="busuanzi_value_site_pv">219027</span>
               </span>
-            
+              本页包含英文字数：{{ page.content | number_of_words }}
+              本页包含中文字数：{{ content | strip_html | strip_newlines | split: "" | size }}
           </div>
         <p>
             <span id="htmer_time" style="color: red;"></span>
