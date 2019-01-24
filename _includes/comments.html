@@ -1,1 +1,14 @@
-<script src="https://www.intensedebate.com/widgets/userComment/22365660" defer="defer" type="text/javascript"></script>
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'Your GitHub username',
+    repo: 'The repo to store comments',
+    oauth: {
+        client_id: '{{site.github_comments_id}}',
+        client_secret: '{{site.github_comments_secret}}',
+    },
+});
+gitment.render('gitmentContainer');
+</script>

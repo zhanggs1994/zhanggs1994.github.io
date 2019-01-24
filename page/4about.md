@@ -325,7 +325,5 @@ type: page
 [Gaohaoyang](http://gaohaoyang.github.io) \|[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/)
 
 ## 评论
-
-<!-- {% include comments.html %} -->
-<script src="https://www.intensedebate.com/widgets/userComment/22365660" defer="defer" type="text/javascript"></script>
+{% include comments.html %}
 <!-- md摘要显示全文问题解决：在摘要位置留出多行空格即可 -->
