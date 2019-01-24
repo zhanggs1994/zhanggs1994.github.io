@@ -290,6 +290,5 @@ Syntax Theme: Atom Dark or One Dark
 
     首页的卡片翻动效果非常赞。
 
-## Comments
-
-{% include comments.html %}
+## 评论
+ {% include intensedebate-comments.html %}

@@ -324,7 +324,7 @@ type: page
 
 [Gaohaoyang](http://gaohaoyang.github.io) \|[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/)
 
-## 留言
+## 评论
 
 <!-- {% include comments.html %} -->
         {% include intensedebate-comments.html %}
