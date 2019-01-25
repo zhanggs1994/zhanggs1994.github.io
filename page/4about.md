@@ -323,20 +323,6 @@ type: page
 [Gaohaoyang](http://gaohaoyang.github.io) \|[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/)
 
 ## 评论
-<!-- {% include comments.html %} -->
+{% include comments.html %}
 <!-- md摘要显示全文问题解决：在摘要位置留出多行空格即可 -->
-<div id="container"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-//   id: '页面 ID', // 可选。默认为 location.href
-  owner: 'zhanggs1994',
-  repo: 'zhanggs1994.github.io',
-  oauth: {
-    client_id: '48bfdf73aeda942806ee',
-    client_secret: 'ab8e8c91f7db8a19a87cdc460879a153a788d97a',
-  },
-})
-gitment.render('container')
-</script>
+<script type="text/javascript" src="./js/mouse-click-effects.js"></script>

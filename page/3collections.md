@@ -291,5 +291,5 @@ Syntax Theme: Atom Dark or One Dark
     首页的卡片翻动效果非常赞。
 
 ## 评论
- <!-- {% include intensedebate-comments.html %} -->
- <script src="https://www.intensedebate.com/widgets/userComment/22365660" defer="defer" type="text/javascript"></script>
+ {% include comments.html %}
+<script type="text/javascript" src="./js/mouse-click-effects.js"></script>
