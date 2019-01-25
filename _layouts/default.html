@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-  {% if request.path='https://zhanggs1994.github.io/' %}
+  {% if page.url='https://zhanggs1994.github.io/' %}
   {% include x-mark-index.html %}
   {% endif %}
   {% include head.html %}
 
   <body>
-   <div id="localurl"><a href="{{ request.path }}">测试</a></div>
+   <div id="localurl"><a href="{{ page.url }}">测试</a></div>
     {% include header.html %}
 
         {{ content }}
