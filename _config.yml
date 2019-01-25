@@ -31,8 +31,10 @@ description_footer: 张三疯的个人博客！
 duoshuo_shortname: zhanggansheng
 disqus_shortname: zhanggansheng
 intensedebate_comments: true  #intensedebate评论功能
-github_comments_id: 48bfdf73aeda942806ee
-github_comments_secret: ab8e8c91f7db8a19a87cdc460879a153a788d97a
+github_username: zhanggs1994
+comment_gitment_repo: zhanggs1994.github.io
+comment_gitment_clientId: 48bfdf73aeda942806ee
+comment_gitment_clientSecret: ab8e8c91f7db8a19a87cdc460879a153a788d97a
 
 
 # statistic analysis 统计代码
