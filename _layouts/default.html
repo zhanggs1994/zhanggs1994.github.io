@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   {% include x-mark-index.html %}
+  {% if location.href %}
+  <div>location.href</div>
   {% include head.html %}
-
   <body>
   <div id="containMain" style="display: none;">
     {% include header.html %}
