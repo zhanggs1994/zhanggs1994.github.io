@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <div id="x-mark-div">
-      {% include x-mark-index.html %}
-  </div>
+  {% include x-mark-index.html %}
   {% include head.html %}
 
   <body>
@@ -32,7 +30,7 @@
 $(document).ready(function($) {
   console.log(location.href);
  if(location.href!="https://zhanggs1994.github.io/"){
-   $("#x-mark-div").remove();
+   $("#x-mark-page").remove();
  }
 });
 </script>
