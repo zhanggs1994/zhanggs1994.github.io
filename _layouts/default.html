@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 <html>
-  {% if page.url == '/' %}
-  {% include x-mark-index.html %}
-      {% else %}
-      <div>aaa</div>
-  {% endif %}
-
-
   {% include head.html %}
 
   <body>
@@ -40,3 +33,8 @@ $(document).ready(function($) {
  }
 });
 </script> -->
+{% if page.url == '/' %}
+{% include x-mark-index.html %}
+    {% else %}
+    <div>aaa</div>
+{% endif %}
