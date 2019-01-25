@@ -325,4 +325,4 @@ type: page
 ## 评论
 {% include comments.html %}
 <!-- md摘要显示全文问题解决：在摘要位置留出多行空格即可 -->
-<script type="text/javascript" src="../js/mouse-click-effects.js"></script>
+<!-- <script type="text/javascript" src="../js/mouse-click-effects.js"></script> -->

@@ -43,6 +43,7 @@
 
     function createHeart(event) {
         var d = document.createElement("div");
+        //爱心特效
         d.className = "heart";
         hearts.push({
             el: d,
@@ -53,6 +54,36 @@
             color: randomColor()
         });
         document.body.appendChild(d);
+
+    //文字特效
+    var a_idx = 0;
+    var a = new Array("!!!∑(ﾟДﾟノ)ノ", "❤记得好评哦❤", "(〃'▽'〃)", "❤记得常来哦❤", "ヾ(✿ﾟ▽ﾟ)ノ", "❤记得关注哦❤", "(～￣▽￣)～ ", "❤赞一个❤", "( • ̀ω•́ )✧", "罒ω罒");
+    var $i = $("<span></span>").text(a[a_idx]);
+    a_idx = (a_idx + 1) % a.length;
+    var x = e.pageX,
+        y = e.pageY;
+    $i.css({
+        "z-index": 99,
+        "top": y - 20 - Math.random() * 100,
+        "left": x - Math.random() * 100,
+        "position": "absolute",
+        "font-weight": "bold",
+        "color": "rgb(" + ~~(255 * Math.random()) + "," + ~~(
+                255 * Math.random()) + "," + ~~(255 * Math.random()) +
+            ")"
+    });
+    document.body.append($i);
+    $i.animate({
+            "top": y - 180,
+            "opacity": 0
+        },
+        3000,
+        function() {
+            $i.remove();
+        });
+  
+
+
     }
 
     function css(css) {
@@ -70,33 +101,33 @@
         return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + ")";
     }
     /* 鼠标特效 */
-    var a_idx = 0;
-    jQuery(document).ready(function($) {
-        $("body").click(function(e) {
-            var a = new Array("!!!∑(ﾟДﾟノ)ノ", "❤记得好评哦❤", "(〃'▽'〃)", "❤记得常来哦❤", "ヾ(✿ﾟ▽ﾟ)ノ", "❤记得关注哦❤", "(～￣▽￣)～ ", "❤赞一个❤", "( • ̀ω•́ )✧", "罒ω罒");
-            var $i = $("<span></span>").text(a[a_idx]);
-            a_idx = (a_idx + 1) % a.length;
-            var x = e.pageX,
-                y = e.pageY;
-            $i.css({
-                "z-index": 99,
-                "top": y - 20 - Math.random() * 100,
-                "left": x - Math.random() * 100,
-                "position": "absolute",
-                "font-weight": "bold",
-                "color": "rgb(" + ~~(255 * Math.random()) + "," + ~~(
-                        255 * Math.random()) + "," + ~~(255 * Math.random()) +
-                    ")"
-            });
-            $("body").append($i);
-            $i.animate({
-                    "top": y - 180,
-                    "opacity": 0
-                },
-                3000,
-                function() {
-                    $i.remove();
-                });
-        });
-    });
+    // var a_idx = 0;
+    // jQuery(document).ready(function($) {
+    //     $("body").click(function(e) {
+    //         var a = new Array("!!!∑(ﾟДﾟノ)ノ", "❤记得好评哦❤", "(〃'▽'〃)", "❤记得常来哦❤", "ヾ(✿ﾟ▽ﾟ)ノ", "❤记得关注哦❤", "(～￣▽￣)～ ", "❤赞一个❤", "( • ̀ω•́ )✧", "罒ω罒");
+    //         var $i = $("<span></span>").text(a[a_idx]);
+    //         a_idx = (a_idx + 1) % a.length;
+    //         var x = e.pageX,
+    //             y = e.pageY;
+    //         $i.css({
+    //             "z-index": 99,
+    //             "top": y - 20 - Math.random() * 100,
+    //             "left": x - Math.random() * 100,
+    //             "position": "absolute",
+    //             "font-weight": "bold",
+    //             "color": "rgb(" + ~~(255 * Math.random()) + "," + ~~(
+    //                     255 * Math.random()) + "," + ~~(255 * Math.random()) +
+    //                 ")"
+    //         });
+    //         $("body").append($i);
+    //         $i.animate({
+    //                 "top": y - 180,
+    //                 "opacity": 0
+    //             },
+    //             3000,
+    //             function() {
+    //                 $i.remove();
+    //             });
+    //     });
+    // });
 })(window, document);
