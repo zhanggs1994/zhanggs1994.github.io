@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-  {% if page.url='/' %}
+  {% if page.url=='/' %}
   {% include x-mark-index.html %}
   {% endif %}
   {% include head.html %}
 
   <body>
-   <div id="localurl"><a href="{{ page.url }}">测试</a></div>
+   <div id="localurl"><a href="{{ page.path }}">测试</a></div>
     {% include header.html %}
 
         {{ content }}
