@@ -74,14 +74,11 @@
     jQuery(document).ready(function($) {
         $("body").click(function(e) {
             var a = new Array("!!!∑(ﾟДﾟノ)ノ", "❤记得好评哦❤", "(〃'▽'〃)", "❤记得常来哦❤", "ヾ(✿ﾟ▽ﾟ)ノ", "❤记得关注哦❤", "(～￣▽￣)～ ", "❤赞一个❤", "( • ̀ω•́ )✧", "罒ω罒");
-            var $i =document.createElement("span");
-            $i.id="clickTextEffects";
-            $("#clickTextEffects").text(a[a_idx]);
-            // var $i = $("<span></span>").text(a[a_idx]);
+            var $i = $("<span></span>").text(a[a_idx]);
             a_idx = (a_idx + 1) % a.length;
             var x = e.pageX,
                 y = e.pageY;
-                $("#clickTextEffects").css({
+            $i.css({
                 "z-index": 99,
                 "top": y - 20 - Math.random() * 100,
                 "left": x - Math.random() * 100,
@@ -92,13 +89,13 @@
                     ")"
             });
             $("body").append($i);
-            $("#clickTextEffects").animate({
+            $i.animate({
                     "top": y - 180,
                     "opacity": 0
                 },
                 3000,
                 function() {
-                    $("#clickTextEffects").remove();
+                    $i.remove();
                 });
         });
     });
