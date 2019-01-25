@@ -292,13 +292,11 @@ type: page
 
 ## 关于我
 
-![](../img/zsf.png)
 
 
+​                     ![](../img/abouttext.png)
 
 ------
-
-![](../img/abouttext.png)
 
 ## 联系我
 
