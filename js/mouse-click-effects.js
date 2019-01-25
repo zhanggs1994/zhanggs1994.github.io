@@ -81,7 +81,7 @@
             a_idx = (a_idx + 1) % a.length;
             var x = e.pageX,
                 y = e.pageY;
-            $i.css({
+                $("#clickTextEffects").css({
                 "z-index": 99,
                 "top": y - 20 - Math.random() * 100,
                 "left": x - Math.random() * 100,
@@ -92,13 +92,13 @@
                     ")"
             });
             $("body").append($i);
-            $i.animate({
+            $("#clickTextEffects").animate({
                     "top": y - 180,
                     "opacity": 0
                 },
                 3000,
                 function() {
-                    $i.remove();
+                    $("#clickTextEffects").remove();
                 });
         });
     });
