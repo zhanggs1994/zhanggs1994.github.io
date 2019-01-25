@@ -292,4 +292,4 @@ Syntax Theme: Atom Dark or One Dark
 
 ## 评论
  {% include comments.html %}
-<script type="text/javascript" src="./js/mouse-click-effects.js"></script>
+<script type="text/javascript" src="../js/mouse-click-effects.js"></script>
