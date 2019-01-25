@@ -319,11 +319,12 @@
   <script src='../js/x-page/x-mark-three.min.js'></script>
   <script src="../js/x-page/x-mark-index.js"></script>
 </div>
-    {% else %}
-    <div>aaa</div>
 {% endif %}
 
-<div id="containMain" style="display: none;">
+{% if page.url == '/' %}
+<span id="containMain" style="display: none;">
+{% endif %}
+
   {% include head.html %}
   <body>
     {% include header.html %}
@@ -344,7 +345,9 @@
     <!-- <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
 
   </body>
-</div>
+  {% if page.url == '/' %}
+</span >
+  {% endif %}
 </html>
 <!-- <script type="text/javascript" src="../js/jquery-2.0.0.min.js"></script>
 <script type="text/javascript" >
