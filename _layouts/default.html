@@ -6,7 +6,7 @@
   {% include head.html %}
 
   <body>
-   <div id="localurl"><a href="{% url 'bookinfo'  request.path  %}">测试</a></div>
+   <div id="localurl"><a href="{{ request.path  }}">测试</a></div>
     {% include header.html %}
 
         {{ content }}
