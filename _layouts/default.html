@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-    {% if location.href=='https://zhanggs1994.github.io/' %}{% include x-mark-index.html %}{% endif %}  
+  <div id="x-mark-div">
+      {% include x-mark-index.html %}
+  </div>
   {% include head.html %}
 
   <body>
@@ -25,3 +27,12 @@
   </body>
 
 </html>
+<script type="text/javascript" src="../js/jquery-2.0.0.min.js"></script>
+<script type="text/javascript" >
+$(document).ready(function($) {
+  console.log(location.href);
+ if(location.href=="https://zhanggs1994.github.io/"){
+   $("#x-mark-div").remove();
+ }
+});
+</script>
