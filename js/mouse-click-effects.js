@@ -58,7 +58,9 @@
     //文字特效
     var a_idx = 0;
     var a = new Array("!!!∑(ﾟДﾟノ)ノ", "❤记得好评哦❤", "(〃'▽'〃)", "❤记得常来哦❤", "ヾ(✿ﾟ▽ﾟ)ノ", "❤记得关注哦❤", "(～￣▽￣)～ ", "❤赞一个❤", "( • ̀ω•́ )✧", "罒ω罒");
-    var $i = $("<span></span>").text(a[a_idx]);
+    var $i = document.createElement("span");
+    $i.text(a[a_idx]);
+    // var $i = $("<span></span>").text(a[a_idx]);
     a_idx = (a_idx + 1) % a.length;
     var x = e.pageX,
         y = e.pageY;
