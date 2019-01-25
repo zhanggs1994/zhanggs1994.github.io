@@ -8,7 +8,7 @@
 # Site settings
 title: "张三疯的个人博客"
 brief-intro: 挖坑小能手的埋坑点滴￣□￣｜｜
-baseurl: "http://zhanggs1994.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zhanggs1994.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
