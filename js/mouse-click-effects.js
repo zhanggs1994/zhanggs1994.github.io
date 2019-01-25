@@ -79,7 +79,7 @@
             var x = e.pageX,
                 y = e.pageY;
             $i.css({
-                "z-index": 100,
+                "z-index": 99,
                 "top": y - 20 - Math.random() * 100,
                 "left": x - Math.random() * 100,
                 "position": "absolute",
@@ -88,7 +88,7 @@
                         255 * Math.random()) + "," + ~~(255 * Math.random()) +
                     ")"
             });
-            document.body.append($i);
+            $("body").append($i);
             $i.animate({
                     "top": y - 180,
                     "opacity": 0
