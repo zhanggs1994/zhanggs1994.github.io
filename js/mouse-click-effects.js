@@ -79,7 +79,7 @@
             var x = e.pageX,
                 y = e.pageY;
             $i.css({
-                // "z-index": 100,
+                "z-index": 100,
                 "top": y - 20 - Math.random() * 100,
                 "left": x - Math.random() * 100,
                 "position": "absolute",
