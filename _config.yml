@@ -33,8 +33,8 @@ disqus_shortname: zhanggansheng
 intensedebate_comments: true  #intensedebate评论功能
 github_username: zhanggs1994
 comment_gitment_repo: zhanggs1994.github.io
-comment_gitment_clientId: 48bfdf73aeda942806ee
-comment_gitment_clientSecret: ab8e8c91f7db8a19a87cdc460879a153a788d97a
+comment_gitment_clientId: 44338953d70bce587555
+comment_gitment_clientSecret: 91562c787c58f062d468bafdd116c2868ce9a8fc
 
 
 # statistic analysis 统计代码
