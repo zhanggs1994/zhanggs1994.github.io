@@ -65,7 +65,7 @@ layout: default
         {% include previousAndNext.html %}
 
         <h2 id="comments">评论</h2>
-        {% if site.comment_gitment_repo %}
+        <!-- {% if site.comment_gitment_repo %}
 <div id="gitmentContainer"></div>
 <link rel="stylesheet" href="../css/comment_gitment.css">
 <script src="../js/comment_gitment.js"></script>
@@ -81,8 +81,8 @@ layout: default
     });
     gitment.render('gitmentContainer')
 </script>
-{% endif %}
-        <!-- {% include comments.html %} -->
+{% endif %} -->
+        {% include comments.html %}
         <!-- {% include intensedebate-comments.html %} -->
     </div>
     <button class="anchor"><i class="fa fa-anchor"></i></button>
