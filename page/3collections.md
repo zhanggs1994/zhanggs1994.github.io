@@ -65,7 +65,7 @@ type: page
 
 * [JavaScript 设计模式 系列 AlloyTeam](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 
-### ES2015
+### ES6
 
 - [https://tc39.github.io/ecma262/](https://tc39.github.io/ecma262/)
 * [http://www.ecma-international.org/ecma-262/6.0/](http://www.ecma-international.org/ecma-262/6.0/)
