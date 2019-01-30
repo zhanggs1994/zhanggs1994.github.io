@@ -70,7 +70,7 @@ layout: default
 <script src="{{ "/js/comment_gitment.js " | prepend: site.baseurl }}"></script>
 <script>
     var gitment = new Gitment({
-        id: '{{ page.title }}',
+        id: '{{ page.date }}',
         owner: '{{site.github_username}}',
         repo: '{{site.comment_gitment_repo}}',
         oauth: {
