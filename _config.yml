@@ -38,10 +38,10 @@ comment_gitment_clientSecret: 7c74126e27ee35ae06f09242388df4b93919065b
 
 
 # statistic analysis 统计代码
-# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# 百度统计 id，将统计代码替换为自己的百度统计id，即# f2f29fcc544e16f43fea51de74e85c78
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: f2f29fcc544e16f43fea51de74e85c78
+baidu_tongji_id: 2bad8636dca5b833bcb200a448fad981
 google_analytics_id: UA-133194493-1 # google 分析追踪id
 google_analytics_host: auto
 
