@@ -75,15 +75,13 @@ layout: default
       repo: '{{site.comment_gitment_repo}}',
       owner: '{{site.github_username}}',
       admin: ['{{site.github_username}}'],
-      id: ocation.pathname,      // Ensure uniqueness and length less than 50
+      id: location.pathname,      // Ensure uniqueness and length less than 50
   distractionFreeMode: false  // Facebook-like distraction free mode
     })
-    
     gitalk.render('gitalk-container')
     </script>
 {% endif %}
-        <!-- {% include comments.html %} -->
-        <!-- {% include intensedebate-comments.html %} -->
+
     </div>
     <button class="anchor"><i class="fa fa-anchor"></i></button>
     <div class="right">
